@@ -61,7 +61,7 @@ function updateSigninStatus(isSignedIn) {
     content.style.display = 'block';
     videoContainer.style.display = 'block';
     //getChannel(defaultChannel);
-    alert("update 3")
+    alert("update 4")
     execute();
   } else {
     authorizeButton.style.display = 'block';
@@ -103,22 +103,24 @@ function execute() {
         console.log("Response", response);
         response.result.items.forEach((obj) => {
           const dura = obj.contentDetails.duration
-          const myRegex = /PT([0-9]*)M([0-9]*)S/g
+          const myRegex = /PT([0-9]*)S/g
           const found = myRegex.exec(dura);
-          if (parseInt(found[2]) < 30) {
+          if (found.length > 1) {
+            if (parseInt(found[1]) < 30) {
 
-            gapi.client.youtube.videos.rate({
-                "id": obj.id,
-                "rating": "none"
-              })
-              .then(function (response) {
-                  // Handle the results here (response.result has the parsed body).
-                  console.log("Response", response);
-                },
-                function (err) {
-                  console.error("Execute error", err);
-                });
+              gapi.client.youtube.videos.rate({
+                  "id": obj.id,
+                  "rating": "none"
+                })
+                .then(function (response) {
+                    // Handle the results here (response.result has the parsed body).
+                    console.log("Response", response);
+                  },
+                  function (err) {
+                    console.error("Execute error", err);
+                  });
 
+            }
           }
         })
       },
