@@ -61,7 +61,7 @@ function updateSigninStatus(isSignedIn) {
     content.style.display = 'block';
     videoContainer.style.display = 'block';
     //getChannel(defaultChannel);
-    alert("update 2")
+    alert("update 3")
     execute();
   } else {
     authorizeButton.style.display = 'block';
@@ -101,7 +101,7 @@ function execute() {
     .then(function (response) {
         // Handle the results here (response.result has the parsed body).
         console.log("Response", response);
-        response.items.forEach((obj) => {
+        response.result.items.forEach((obj) => {
           const dura = obj.contentDetails.duration
           const myRegex = /PT([0-9]*)M([0-9]*)S/g
           const found = myRegex.exec(dura);
