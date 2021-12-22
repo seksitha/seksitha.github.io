@@ -97,18 +97,18 @@ function execute() {
       ],
       "maxResults": 250,
       "myRating": "like",
-      "pageToken":pageTooken
+      "pageToken": pageTooken
     })
     .then(function (response) {
         // Handle the results here (response.result has the parsed body).
         console.log("Response", response);
-        pageTooken=response.result.nextPageToken
+        pageTooken = response.result.nextPageToken
         response.result.items.forEach((obj) => {
           const dura = obj.contentDetails.duration
           const myRegex = /PT([0-9]*)S/g
           const found = myRegex.exec(dura);
           if (found) {
-            if (parseInt(found[1]) <= 59) {
+            if (parseInt(found[1]) <= execute59) {
 
               gapi.client.youtube.videos.rate({
                   "id": obj.id,
@@ -176,7 +176,7 @@ function numberWithCommas(x) {
   return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',');
 }
 
-document.getElementById("dislike").addEventListener("onClick",()=>{
+document.getElementById("dislike").addEventListener("onClick", () => {
   execute();
 })
 
