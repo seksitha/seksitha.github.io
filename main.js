@@ -105,7 +105,7 @@ function execute() {
           const dura = obj.contentDetails.duration
           const myRegex = /PT([0-9]*)M([0-9]*)S/g
           const found = myRegex.exec(dura);
-          if (paresInt(found[2]) < 30) {
+          if (parseInt(found[2]) < 30) {
 
             gapi.client.youtube.videos.rate({
                 "id": obj.id,
