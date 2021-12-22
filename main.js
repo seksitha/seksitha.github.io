@@ -4,7 +4,7 @@ const DISCOVERY_DOCS = [
   'https://www.googleapis.com/discovery/v1/apis/youtube/v3/rest'
 ];
 const SCOPES = 'https://www.googleapis.com/auth/youtube';
-const defaultChannel = 'Sek Sitha';
+const defaultChannel = 'Sitha Sek';
 
 const authorizeButton = document.getElementById('authorize-button');
 const signoutButton = document.getElementById('signout-button');
@@ -32,9 +32,16 @@ function handleClientLoad() {
 function initClient() {
   gapi.client
     .init({
+      apiKey: "AIzaSyCmJW5cm6vSDdnAMhg0T-btkROA9r3vXd0",
       discoveryDocs: DISCOVERY_DOCS,
       clientId: CLIENT_ID,
       scope: SCOPES
+      //   {
+      //     'apiKey': 'YOUR_API_KEY',
+      //     'clientId': 'YOUR_CLIENT_ID',
+      //     'scope': 'https://www.googleapis.com/auth/youtube.force-ssl',
+      //     'discoveryDocs': ['https://www.googleapis.com/discovery/v1/apis/youtube/v3/rest']
+      // }
     })
     .then(() => {
       // Listen for sign in state changes
@@ -54,6 +61,7 @@ function updateSigninStatus(isSignedIn) {
     content.style.display = 'block';
     videoContainer.style.display = 'block';
     getChannel(defaultChannel);
+    getYouTubeDetail();
   } else {
     authorizeButton.style.display = 'block';
     signoutButton.style.display = 'none';
@@ -76,6 +84,34 @@ function handleSignoutClick() {
 function showChannelData(data) {
   const channelData = document.getElementById('channel-data');
   channelData.innerHTML = data;
+}
+
+function getYouTubeDetail() {
+  // Example 1: Use method-specific function
+  var request = gapi.client.youtube.channels.list({
+    'part': 'snippet',
+    'mine': 'true'
+  });
+
+  // Execute the API request.
+  request.execute(function (response) {
+    console.log(response);
+  });
+
+
+  // Example 2: Use gapi.client.request(args) function
+  var request = gapi.client.request({
+    'method': 'GET',
+    'path': '/youtube/v3/channels',
+    'params': {
+      'part': 'snippet',
+      'mine': 'true'
+    }
+  });
+  // Execute the API request.
+  request.execute(function (response) {
+    console.log(response);
+  });
 }
 
 // Get channel from API
