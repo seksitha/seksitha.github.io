@@ -13,7 +13,7 @@ const channelForm = document.getElementById('channel-form');
 const channelInput = document.getElementById('channel-input');
 const videoContainer = document.getElementById('video-container');
 
-
+let pageTooken = "";
 // Form submit and change channel
 channelForm.addEventListener('submit', e => {
   e.preventDefault();
@@ -62,7 +62,7 @@ function updateSigninStatus(isSignedIn) {
     videoContainer.style.display = 'block';
     //getChannel(defaultChannel);
     console.log("update 5")
-    execute();
+    // execute();
   } else {
     authorizeButton.style.display = 'block';
     signoutButton.style.display = 'none';
@@ -96,11 +96,13 @@ function execute() {
         "id"
       ],
       "maxResults": 250,
-      "myRating": "like"
+      "myRating": "like",
+      "pageToken":pageTooken
     })
     .then(function (response) {
         // Handle the results here (response.result has the parsed body).
         console.log("Response", response);
+        pageTooken=response.result.nextPageToken
         response.result.items.forEach((obj) => {
           const dura = obj.contentDetails.duration
           const myRegex = /PT([0-9]*)S/g
@@ -173,6 +175,10 @@ function getChannel(channel) {
 function numberWithCommas(x) {
   return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',');
 }
+
+document.getElementById("dislike").addEventListener("onClick",()=>{
+  execute();
+})
 
 function requestVideoPlaylist(playlistId) {
   const requestOptions = {
