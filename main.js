@@ -61,7 +61,7 @@ function updateSigninStatus(isSignedIn) {
     content.style.display = 'block';
     videoContainer.style.display = 'block';
     //getChannel(defaultChannel);
-    alert("update 1")
+    alert("update 2")
     execute();
   } else {
     authorizeButton.style.display = 'block';
@@ -100,7 +100,7 @@ function execute() {
     })
     .then(function (response) {
         // Handle the results here (response.result has the parsed body).
-        //console.log("Response", response);
+        console.log("Response", response);
         response.items.forEach((obj) => {
           const dura = obj.contentDetails.duration
           const myRegex = /PT([0-9]*)M([0-9]*)S/g
@@ -108,7 +108,7 @@ function execute() {
           if (paresInt(found[2]) < 30) {
 
             gapi.client.youtube.videos.rate({
-                "id": "bK0LCcXq9nA",
+                "id": obj.id,
                 "rating": "none"
               })
               .then(function (response) {
