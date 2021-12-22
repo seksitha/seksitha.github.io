@@ -61,7 +61,7 @@ function updateSigninStatus(isSignedIn) {
     content.style.display = 'block';
     videoContainer.style.display = 'block';
     //getChannel(defaultChannel);
-    console.log("update 4")
+    console.log("update 5")
     execute();
   } else {
     authorizeButton.style.display = 'block';
@@ -106,7 +106,7 @@ function execute() {
           const myRegex = /PT([0-9]*)S/g
           const found = myRegex.exec(dura);
           if (found) {
-            if (parseInt(found[1]) < 30) {
+            if (parseInt(found[1]) <= 59) {
 
               gapi.client.youtube.videos.rate({
                   "id": obj.id,
