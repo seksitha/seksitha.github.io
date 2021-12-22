@@ -61,7 +61,7 @@ function updateSigninStatus(isSignedIn) {
     content.style.display = 'block';
     videoContainer.style.display = 'block';
     //getChannel(defaultChannel);
-    alert("update 4")
+    console.log("update 4")
     execute();
   } else {
     authorizeButton.style.display = 'block';
@@ -95,7 +95,7 @@ function execute() {
         "contentDetails",
         "id"
       ],
-      "maxResults": 100,
+      "maxResults": 250,
       "myRating": "like"
     })
     .then(function (response) {
