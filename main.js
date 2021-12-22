@@ -61,6 +61,7 @@ function updateSigninStatus(isSignedIn) {
     content.style.display = 'block';
     videoContainer.style.display = 'block';
     //getChannel(defaultChannel);
+    alert("update 1")
     execute();
   } else {
     authorizeButton.style.display = 'block';
@@ -87,21 +88,44 @@ function showChannelData(data) {
 }
 
 
-  // Example 1: Use method-specific function
-  function execute() {
-    return gapi.client.youtube.videos.list({
+// Example 1: Use method-specific function
+function execute() {
+  return gapi.client.youtube.videos.list({
       "part": [
-        "contentDetails"
+        "contentDetails",
+        "id"
       ],
       "maxResults": 100,
       "myRating": "like"
     })
-        .then(function(response) {
-                // Handle the results here (response.result has the parsed body).
-                console.log("Response", response);
-              },
-              function(err) { console.error("Execute error", err); });
-  }
+    .then(function (response) {
+        // Handle the results here (response.result has the parsed body).
+        //console.log("Response", response);
+        response.forEach((obj) => {
+          const dura = obj.contentDetails.duration
+          const myRegex = /PT([0-9]*)M([0-9]*)S/g
+          const found = myRegex.exec(dura);
+          if (paresInt(found[2]) < 30) {
+
+            gapi.client.youtube.videos.rate({
+                "id": "bK0LCcXq9nA",
+                "rating": "none"
+              })
+              .then(function (response) {
+                  // Handle the results here (response.result has the parsed body).
+                  console.log("Response", response);
+                },
+                function (err) {
+                  console.error("Execute error", err);
+                });
+
+          }
+        })
+      },
+      function (err) {
+        console.error("Execute error", err);
+      });
+}
 
 
 // Get channel from API
