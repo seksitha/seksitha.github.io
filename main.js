@@ -60,8 +60,8 @@ function updateSigninStatus(isSignedIn) {
     signoutButton.style.display = 'block';
     content.style.display = 'block';
     videoContainer.style.display = 'block';
-    getChannel(defaultChannel);
-    getYouTubeDetail();
+    //getChannel(defaultChannel);
+    execute();
   } else {
     authorizeButton.style.display = 'block';
     signoutButton.style.display = 'none';
@@ -86,33 +86,23 @@ function showChannelData(data) {
   channelData.innerHTML = data;
 }
 
-function getYouTubeDetail() {
+
   // Example 1: Use method-specific function
-  var request = gapi.client.youtube.channels.list({
-    'part': 'snippet',
-    'mine': 'true'
-  });
+  function execute() {
+    return gapi.client.youtube.videos.list({
+      "part": [
+        "contentDetails"
+      ],
+      "maxResults": 100,
+      "myRating": "like"
+    })
+        .then(function(response) {
+                // Handle the results here (response.result has the parsed body).
+                console.log("Response", response);
+              },
+              function(err) { console.error("Execute error", err); });
+  }
 
-  // Execute the API request.
-  request.execute(function (response) {
-    console.log(response);
-  });
-
-
-  // Example 2: Use gapi.client.request(args) function
-  var request = gapi.client.request({
-    'method': 'GET',
-    'path': '/youtube/v3/channels',
-    'params': {
-      'part': 'snippet',
-      'mine': 'true'
-    }
-  });
-  // Execute the API request.
-  request.execute(function (response) {
-    console.log(response);
-  });
-}
 
 // Get channel from API
 function getChannel(channel) {
