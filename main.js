@@ -101,7 +101,7 @@ function execute() {
     .then(function (response) {
         // Handle the results here (response.result has the parsed body).
         //console.log("Response", response);
-        response.forEach((obj) => {
+        response.items.forEach((obj) => {
           const dura = obj.contentDetails.duration
           const myRegex = /PT([0-9]*)M([0-9]*)S/g
           const found = myRegex.exec(dura);
