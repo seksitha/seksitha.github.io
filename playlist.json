@@ -1,0 +1,639 @@
+{
+    "kind": "youtube#playlistListResponse",
+    "etag": "86GhHbcWQCGGjAe5DPd3_AABgbQ",
+    "pageInfo": {
+      "totalResults": 14,
+      "resultsPerPage": 20
+    },
+    "items": [
+      {
+        "kind": "youtube#playlist",
+        "etag": "8m56wwtUEsJLUC-uSi3axN_a0y4",
+        "id": "PLMeEC9Tsf_ccWmzLP-tp9lhG7BydtR44n",
+        "snippet": {
+          "publishedAt": "2021-10-20T09:18:19Z",
+          "channelId": "UCQlydY78x6PTqUq5LKDPuUg",
+          "title": "Robe tie track",
+          "description": "",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/j4nJQNGRkzo/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/j4nJQNGRkzo/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/j4nJQNGRkzo/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/j4nJQNGRkzo/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            }
+          },
+          "channelTitle": "Sitha Sek",
+          "localized": {
+            "title": "Robe tie track",
+            "description": ""
+          }
+        },
+        "contentDetails": {
+          "itemCount": 6
+        }
+      },
+      {
+        "kind": "youtube#playlist",
+        "etag": "mG5xaHItu_nPq2Gj-xcY2XymxO8",
+        "id": "PLMeEC9Tsf_ccVTK3h_omLzZiL9P3h_img",
+        "snippet": {
+          "publishedAt": "2020-11-27T08:40:59Z",
+          "channelId": "UCQlydY78x6PTqUq5LKDPuUg",
+          "title": "Bird",
+          "description": "",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/IieH6yEyVuk/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/IieH6yEyVuk/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/IieH6yEyVuk/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/IieH6yEyVuk/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/IieH6yEyVuk/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "channelTitle": "Sitha Sek",
+          "localized": {
+            "title": "Bird",
+            "description": ""
+          }
+        },
+        "contentDetails": {
+          "itemCount": 6
+        }
+      },
+      {
+        "kind": "youtube#playlist",
+        "etag": "LFE-b5APEImlho0hlDGA1rfH8x8",
+        "id": "PLMeEC9Tsf_ceBgykf7-j6t5vThugkz0cX",
+        "snippet": {
+          "publishedAt": "2020-10-31T13:01:55Z",
+          "channelId": "UCQlydY78x6PTqUq5LKDPuUg",
+          "title": "Fusion",
+          "description": "",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/SEHoQ56k-MY/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/SEHoQ56k-MY/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/SEHoQ56k-MY/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/SEHoQ56k-MY/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/SEHoQ56k-MY/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "channelTitle": "Sitha Sek",
+          "localized": {
+            "title": "Fusion",
+            "description": ""
+          }
+        },
+        "contentDetails": {
+          "itemCount": 5
+        }
+      },
+      {
+        "kind": "youtube#playlist",
+        "etag": "W8pwRwIi9Fy-fGucyJDdnfHCYqc",
+        "id": "PLMeEC9Tsf_cfjxwzCrSIe1Xarfy_cDiVM",
+        "snippet": {
+          "publishedAt": "2020-10-23T09:46:16Z",
+          "channelId": "UCQlydY78x6PTqUq5LKDPuUg",
+          "title": "Ardu heli",
+          "description": "",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/GLWUo5uyb7E/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/GLWUo5uyb7E/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/GLWUo5uyb7E/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/GLWUo5uyb7E/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/GLWUo5uyb7E/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "channelTitle": "Sitha Sek",
+          "localized": {
+            "title": "Ardu heli",
+            "description": ""
+          }
+        },
+        "contentDetails": {
+          "itemCount": 5
+        }
+      },
+      {
+        "kind": "youtube#playlist",
+        "etag": "ZZaNNH0BKGthiL-0HzvLnkrHlpU",
+        "id": "PLMeEC9Tsf_cfdTTs9A_1my5vC4o18loec",
+        "snippet": {
+          "publishedAt": "2020-10-01T09:22:55Z",
+          "channelId": "UCQlydY78x6PTqUq5LKDPuUg",
+          "title": "KMax 🚁",
+          "description": "",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/OYRBQTsCroI/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/OYRBQTsCroI/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/OYRBQTsCroI/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/OYRBQTsCroI/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            }
+          },
+          "channelTitle": "Sitha Sek",
+          "localized": {
+            "title": "KMax 🚁",
+            "description": ""
+          }
+        },
+        "contentDetails": {
+          "itemCount": 76
+        }
+      },
+      {
+        "kind": "youtube#playlist",
+        "etag": "3mCLVeX0qlkKsP8egu39PpuTtF4",
+        "id": "PLMeEC9Tsf_cfHUpLT32WAabGAJsw3rw0Y",
+        "snippet": {
+          "publishedAt": "2020-08-18T23:26:25Z",
+          "channelId": "UCQlydY78x6PTqUq5LKDPuUg",
+          "title": "Drone infos for helicoper",
+          "description": "",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/kNPhVWviwyc/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/kNPhVWviwyc/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/kNPhVWviwyc/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/kNPhVWviwyc/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/kNPhVWviwyc/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "channelTitle": "Sitha Sek",
+          "localized": {
+            "title": "Drone infos for helicoper",
+            "description": ""
+          }
+        },
+        "contentDetails": {
+          "itemCount": 83
+        }
+      },
+      {
+        "kind": "youtube#playlist",
+        "etag": "y23JlLbtZKWdiK5ral0EiRsOKgM",
+        "id": "PLMeEC9Tsf_cd9cRyuB2eQxk6wfwsFszG8",
+        "snippet": {
+          "publishedAt": "2020-08-14T02:07:31Z",
+          "channelId": "UCQlydY78x6PTqUq5LKDPuUg",
+          "title": "Motivations",
+          "description": "",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/REeROakzwfU/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/REeROakzwfU/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/REeROakzwfU/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/REeROakzwfU/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/REeROakzwfU/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "channelTitle": "Sitha Sek",
+          "localized": {
+            "title": "Motivations",
+            "description": ""
+          }
+        },
+        "contentDetails": {
+          "itemCount": 9
+        }
+      },
+      {
+        "kind": "youtube#playlist",
+        "etag": "kKjZ3kHcU4hhjRgnrycm_KPkDGY",
+        "id": "PLMeEC9Tsf_cddYOpcgSr4FRI4msPAe0nz",
+        "snippet": {
+          "publishedAt": "2020-07-08T08:12:45Z",
+          "channelId": "UCQlydY78x6PTqUq5LKDPuUg",
+          "title": "mpu6050 kalamanfilter",
+          "description": "",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/Os6V1lnUPZo/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/Os6V1lnUPZo/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/Os6V1lnUPZo/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/Os6V1lnUPZo/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/Os6V1lnUPZo/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "channelTitle": "Sitha Sek",
+          "localized": {
+            "title": "mpu6050 kalamanfilter",
+            "description": ""
+          }
+        },
+        "contentDetails": {
+          "itemCount": 6
+        }
+      },
+      {
+        "kind": "youtube#playlist",
+        "etag": "GW2LvA7_vrsSkOL268IDzHZ9wo0",
+        "id": "PLMeEC9Tsf_cdhUYm2a-krm3ZkRjDJsddY",
+        "snippet": {
+          "publishedAt": "2020-06-07T08:06:40Z",
+          "channelId": "UCQlydY78x6PTqUq5LKDPuUg",
+          "title": "House",
+          "description": "",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/bQ3gBKDa8RY/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/bQ3gBKDa8RY/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/bQ3gBKDa8RY/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/bQ3gBKDa8RY/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/bQ3gBKDa8RY/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "channelTitle": "Sitha Sek",
+          "localized": {
+            "title": "House",
+            "description": ""
+          }
+        },
+        "contentDetails": {
+          "itemCount": 44
+        }
+      },
+      {
+        "kind": "youtube#playlist",
+        "etag": "mb71-bBm--aR7T7pLELunuNA_9Y",
+        "id": "PLMeEC9Tsf_ceyw9jTJEgL63oFbXoJIwfQ",
+        "snippet": {
+          "publishedAt": "2020-01-18T12:30:41Z",
+          "channelId": "UCQlydY78x6PTqUq5LKDPuUg",
+          "title": "Guitar interest",
+          "description": "",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/NfbnpMYkcgQ/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/NfbnpMYkcgQ/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/NfbnpMYkcgQ/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/NfbnpMYkcgQ/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/NfbnpMYkcgQ/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "channelTitle": "Sitha Sek",
+          "localized": {
+            "title": "Guitar interest",
+            "description": ""
+          }
+        },
+        "contentDetails": {
+          "itemCount": 16
+        }
+      },
+      {
+        "kind": "youtube#playlist",
+        "etag": "_lbZD-c47LFKaL6q9YFM43amUN4",
+        "id": "PLMeEC9Tsf_cdeZK_YYhudEZLgrWwyFTHP",
+        "snippet": {
+          "publishedAt": "2019-04-28T03:04:17Z",
+          "channelId": "UCQlydY78x6PTqUq5LKDPuUg",
+          "title": "Amplifier theory",
+          "description": "",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/YuVqccvgNPM/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/YuVqccvgNPM/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/YuVqccvgNPM/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/YuVqccvgNPM/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            }
+          },
+          "channelTitle": "Sitha Sek",
+          "localized": {
+            "title": "Amplifier theory",
+            "description": ""
+          }
+        },
+        "contentDetails": {
+          "itemCount": 12
+        }
+      },
+      {
+        "kind": "youtube#playlist",
+        "etag": "T5g7w25WbnlVPSMdQ_Fjn3-hwWY",
+        "id": "PLMeEC9Tsf_ceXNmF_X3jiULWkKL9Y7PBw",
+        "snippet": {
+          "publishedAt": "2018-05-23T03:41:34Z",
+          "channelId": "UCQlydY78x6PTqUq5LKDPuUg",
+          "title": "curent",
+          "description": "",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/z7BgY_wTNZA/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/z7BgY_wTNZA/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/z7BgY_wTNZA/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/z7BgY_wTNZA/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/z7BgY_wTNZA/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "channelTitle": "Sitha Sek",
+          "localized": {
+            "title": "curent",
+            "description": ""
+          }
+        },
+        "contentDetails": {
+          "itemCount": 10
+        }
+      },
+      {
+        "kind": "youtube#playlist",
+        "etag": "uIuElFLzB4pqKI5XtPZQj0ICmmY",
+        "id": "PLMeEC9Tsf_cegAVyBbXvBfVFrIZ1xcoN-",
+        "snippet": {
+          "publishedAt": "2017-10-07T01:55:11Z",
+          "channelId": "UCQlydY78x6PTqUq5LKDPuUg",
+          "title": "Quad Tv",
+          "description": "",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/YpO0WXUgO3E/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/YpO0WXUgO3E/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/YpO0WXUgO3E/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/YpO0WXUgO3E/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/YpO0WXUgO3E/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "channelTitle": "Sitha Sek",
+          "localized": {
+            "title": "Quad Tv",
+            "description": ""
+          }
+        },
+        "contentDetails": {
+          "itemCount": 49
+        }
+      },
+      {
+        "kind": "youtube#playlist",
+        "etag": "zkv-vRZW1N84mlAIk9v2KGmHFe8",
+        "id": "PLMeEC9Tsf_cdt3oyaQRUSYrBFAWGRtAIi",
+        "snippet": {
+          "publishedAt": "2017-08-10T03:30:35Z",
+          "channelId": "UCQlydY78x6PTqUq5LKDPuUg",
+          "title": "Good song",
+          "description": "",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/AqR-ElB5kXY/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/AqR-ElB5kXY/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/AqR-ElB5kXY/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/AqR-ElB5kXY/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/AqR-ElB5kXY/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "channelTitle": "Sitha Sek",
+          "localized": {
+            "title": "Good song",
+            "description": ""
+          }
+        },
+        "contentDetails": {
+          "itemCount": 25
+        }
+      }
+    ]
+  }
